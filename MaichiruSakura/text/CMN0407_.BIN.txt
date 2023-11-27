@@ -1,0 +1,15 @@
+○350|53○T_StartupDay
+●350|53●T_StartupDay
+
+○460|52○TTrueEndNzm
+●460|52●TTrueEndNzm
+
+○624|52○TTrueEndKmt
+●624|52●TTrueEndKmt
+
+○788|52○TTrueEndAob
+●788|52●TTrueEndAob
+
+○1785|52○TTrueEndOuk
+●1785|52●TTrueEndOuk
+

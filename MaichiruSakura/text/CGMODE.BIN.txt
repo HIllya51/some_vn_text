@@ -1,0 +1,3 @@
+○128|55○T_PrintCGParam
+●128|55●T_PrintCGParam
+
