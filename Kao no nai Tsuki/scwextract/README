@@ -1,0 +1,74 @@
+Library of C++ wrappers for low-level system functions.
+
+Following headers put declarations into the 'sys' namespace:
+
+sysstring.h	Forward declaration of 'string' class (either std::string or
+		ext::string).  Multibyte/wide string conversions.
+sysstring.cc
+syserror.h	System error exception classes.
+syserror.cc
+sysenv.h	System environment manipulation.
+sysfs.h		Filesystem manipulation.
+sysfs.cc
+syshandle.h	Generic class that wraps access to system 'handle' objects.
+sysio.h		Wrappers for low level system I/O.
+sysio.cc
+sysdll.h	Interface for dynamic-loading libraries.
+sysatomic.h	Atomic exchange/add inline functions.
+sysmemmap.h	Interface for memory mapped files.
+sysmmdetail.h
+sysmemmap.cc
+membuf.hpp	C++ streams interface to memory mapped I/O.
+membuf.cc
+fstream.hpp	C++ streams interface to low level system I/O.
+fstream.cc
+
+Following headers are Windows-only (still using 'sys' namespace):
+
+winmem.hpp	Windows memory management (GlobalAlloc and friends).
+clipboard.hpp	Windows clipboard access interface.
+registry.hpp	Windows registry access interface.
+registry.tcc
+timer.hpp	High-performance system timer (non-win32 version uses
+timer.cc	boost::timer instead).
+
+Following headers put declarations into the 'bin' namespace:
+
+bindata.h	byte-swapping inline functions for endianness handling.
+binio.h		inline functions for binary I/O.
+
+Following header puts declarations into the 'icase' namespace:
+
+icase.h		case insensitive string comparison functors.
+
+Following headers put declarations into global namespace:
+
+refcount_ptr.h	reference counting pointer implementation.
+lstring.h	light_string and short_string -- light-weight string classes.
+
+Sys++ wrappers use the following boost libraries and headers:
+
+cstdint.hpp		for intXX_t platform-independent types.
+static_assert.hpp	for compile-time assertions.
+scoped_array.hpp	for dynamically allocated buffers.
+operators.hpp		for overloaded operators.
+
+Copyright (C) 2006 by poddav
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

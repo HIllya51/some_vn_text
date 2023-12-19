@@ -1,0 +1,15 @@
+SysInitGame
+AF01
+铃菜想去的地方
+RESULT1
+水菜想去的地方
+RESULT2
+AF02a
+AF03
+AF04b
+JUNCTION01
+AF02b
+AF03
+AF04a
+AF05
+Main

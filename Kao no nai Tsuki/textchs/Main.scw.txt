@@ -1,0 +1,8 @@
+SysReset
+SysInitLayer
+SysInitFlag
+START
+SysLogo
+Black
+SysTitle
+START

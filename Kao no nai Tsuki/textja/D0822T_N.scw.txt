@@ -1,0 +1,13 @@
+行動選択
+SysStopSe
+BGM003
+BG0010_I
+さて、どうするかな‥‥‥
+知美に会いに行く
+TOMOMI
+散策する
+FREE
+D0828_03
+EXIT
+S14_03
+EXIT
